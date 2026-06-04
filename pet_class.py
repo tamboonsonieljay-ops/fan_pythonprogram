@@ -21,3 +21,6 @@ def get_animal_type(self):
 
 def get_age(self):
     return self.__age
+
+my_pet = Pet()
+
