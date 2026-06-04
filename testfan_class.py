@@ -32,3 +32,10 @@ class Fan:
 
     def set_on(self,on):
         self.__on = on
+
+    def display(self):
+        print ("Speed:", self.__speed)
+        print ("Radius:", self.__radius)
+        print ("Color:", self.__color)
+        print ("On:", self.__on)
+        print ()
