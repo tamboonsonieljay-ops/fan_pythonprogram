@@ -51,3 +51,11 @@ fan2.set_speed(Fan.MEDIUM)
 fan2.set_radius(5)
 fan2.set_color("blue")
 fan2.set_on(False)
+
+print("")
+
+print("Fan 1:")
+fan1.display()
+
+print("Fan 2:")
+fan2.display()
