@@ -26,7 +26,7 @@ my_pet = Pet()
 
 print("\n------------------------------------------------------------------------")
 
-print("\nPet Information")
+print("\n\033[33mPet Information\033[0m")
 name = input("Enter the name of your pet: ")
 animal_type = input("Enter the type of your pet (Dog, Cat, Fish, etc.): ")
 age = int(input("Enter the age of your pet: "))
@@ -37,7 +37,7 @@ my_pet.set_age(age)
 
 print("\n------------------------------------------------------------------------")
 
-print("\nPet Profile:")
+print("\n\033[34mPet Profile:\033[0m")
 print("Name:", my_pet.get_name())
 print("Type:", my_pet.get_animal_type())
 print("Age:", my_pet.get_age())
