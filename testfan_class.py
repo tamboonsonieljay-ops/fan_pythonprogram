@@ -52,10 +52,14 @@ fan2.set_radius(5)
 fan2.set_color("blue")
 fan2.set_on(False)
 
-print("")
+print("--------------------")
 
-print("Fan 1:")
+print("\n\033[34mFAN 1\033[0m")
 fan1.display()
 
-print("Fan 2:")
+print("--------------------")
+
+print("\n\033[32mFAN 2\033[0m")
 fan2.display()
+
+print("--------------------")
