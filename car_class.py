@@ -15,12 +15,18 @@ class Car:
 
 the_car = Car(2020, "Mitsubishi")
 
-print("Accelerating:")
+print("\nThe car is starting....")
+print("\nCurrent speed:", the_car.get_speed(), "mph\n")
+
+print("Accelerating...")
 for i in range(5):
     the_car.accelerate()
     print("Current speed:", the_car.get_speed())
 
-print("\nBraking:")
+print("\nApplying the brakes...")
 for i in range(5):
     the_car.brake()
     print("Current speed:", the_car.get_speed())
+
+print("\nFinal speed:", the_car.get_speed(), "mph")
+print("\nThe car has come to a stop.")
